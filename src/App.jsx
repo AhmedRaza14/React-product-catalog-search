@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [products, setProducts] = useState([
+  const products =[
     { id: 1, name: 'Dell Laptop', price: 100000, description: 'High-performance laptop for professionals' },
     { id: 2, name: 'HP Desktop', price: 20000, description: 'Affordable desktop for everyday use' },
     { id: 3, name: 'MacBook', price: 30000, description: 'Premium MacBook for creative work' },
@@ -13,7 +13,7 @@ function App() {
     { id: 8, name: 'Audionic Speaker', price: 38000, description: 'High-quality speaker for immersive audio experience' },
     { id: 9, name: 'Iphone 16', price: 42000, description: 'Latest smartphone with advanced features' },
     { id: 10, name: 'Lenovo ThinkPad', price: 35000, description: 'Reliable laptop for business professionals' }
-  ])
+  ]
   const [searchTerm, setSearchTerm] = useState('')
   const [category, setCategory] = useState('all')
 
